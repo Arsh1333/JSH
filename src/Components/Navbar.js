@@ -44,17 +44,26 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <h1>
+          JOB SKILL <span>HUB</span>
+        </h1>
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
+        <a href="https://6535653134f65610e706db8e--remarkable-cat-a3281f.netlify.app/">
+          Quiz
         </a>
-        <button className="primary-button">Bookings Now</button>
+        <a href="https://65355bcf4e799310637948b4--unrivaled-cajeta-ac4b94.netlify.app/">
+          Resume Builder
+        </a>
+        <a href="https://653562f8bfae0c64564fc8b2--glittering-monstera-5bb64c.netlify.app/">
+          Job Finder
+        </a>
+        <a href="https://65356b989c63b3680a358ffa--fluffy-starburst-e06f7c.netlify.app/">
+          Salary Calculator
+        </a>
+        <a href="https://653563ef598cac5e5a789648--gleeful-hamster-f267f4.netlify.app/">
+          Ratings
+        </a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

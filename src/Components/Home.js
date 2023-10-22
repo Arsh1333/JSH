@@ -1,6 +1,6 @@
 import React from "react";
-import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
+//import BannerBackground from "../Assets/home-banner-background.png";
+import BannerImage from "../Assets/give me image f 0.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -9,19 +9,20 @@ const Home = () => {
     <div className="home-container">
       <Navbar />
       <div className="home-banner-container">
-        <div className="home-bannerImage-container">
+        {/*<div className="home-bannerImage-container">
           <img src={BannerBackground} alt="" />
-        </div>
+        </div>*/}
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+            Discover Your Dream Job and Unleash Your Potential with our
+            Innovative Tools
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Unlock Endless Career Opportunities with Our website's unique
+            feature
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Match Your skills Now <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">

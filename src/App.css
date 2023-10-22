@@ -4,6 +4,12 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+h1 {
+  color: #9fbcef;
+}
+span {
+  color: #ebc2ea;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -20,7 +26,7 @@ body {
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #36454f;
 }
 
 nav {
@@ -35,7 +41,7 @@ nav {
 .navbar-links-container a {
   margin-right: 3rem;
   text-decoration: none;
-  color: black;
+  color: #9fbcef;
   font-size: 1.1rem;
   font-weight: 600;
 }
@@ -85,14 +91,14 @@ nav {
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
-  color: #4c4c4c;
+  color: #ffffff;
   /* line-height: 5rem; */
   max-width: 600px;
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
-  color: #6a6a6a;
+  color: #d7d7d7;
   margin: 1.5rem 0rem;
 }
 .secondary-button {
